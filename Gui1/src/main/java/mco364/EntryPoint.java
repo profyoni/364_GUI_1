@@ -6,6 +6,10 @@ import javax.swing.*;
 
 public class EntryPoint {
     
+    
+    
+    public int bar(){return 1;}
+    
     public static void main(String[] args) {
         // JFrame = windowed app
         // // center of JFrame
