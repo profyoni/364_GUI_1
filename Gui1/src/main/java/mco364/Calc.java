@@ -43,7 +43,8 @@ public class Calc extends JFrame {
         //        menubar.add(editMenu);
         JTextPane textPanel = new JTextPane();
         textPanel.setContentType("text/html");
-        textPanel.setText("<strong>1234</strong><br>QWE");
+        textPanel.setText("<strong><small>1234</small></strong><br><div align=\"right\">" +
+"QWE</div>");
         JPanel mainPanel2 = new CalcPanel(); // lightweight -- implement in pure Java
         add(mainPanel2, BorderLayout.CENTER);
         JLabel statusBar = new JLabel("App has started...");
